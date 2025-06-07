@@ -157,9 +157,9 @@
                 <a href="Display_ROWHOUSE_Adm.jsp">Row House</a>
                 <a href="">Bungalows</a>
                 <a href="Display_Booking_Adm.jsp">Booking</a>
-                <a href="#">Display Sales</a>
-                <a href="#">Request Raised</a>
-                <a href="#">Disp PettyCash</a>
+                <a href="Display_Sales_Emp.jsp">Display Sales</a>
+                <a href="Display_Request_Raise_Emp.jsp">Request Raised</a>
+                <a href="Display_PettyCash_Emp.jsp">Disp PettyCash</a>
             </div>
         </div>
 
@@ -176,8 +176,8 @@
                 <a href="Display_ROWHOUSE_Adm.jsp">Row House</a>
                 <a href="">Bungalows</a>
                 <a href="Display_Booking_Adm_Agent.jsp">Booking</a>
-                <a href="#">Display Sales</a>
-                <a href="#">Request Raised</a>
+                <a href="Display_Sales_Agt.jsp">Display Sales</a>
+                <a href="Display_Request_Raise_Agt.jsp">Request Raised</a>
             </div>
         </div>
     </div>
