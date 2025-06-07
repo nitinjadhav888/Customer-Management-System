@@ -1,0 +1,91 @@
+
+<html lang="en">
+<head>
+    
+    <title>Skyline Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url('pics/login2.jpg') no-repeat center center/cover;
+            font-family: Arial, sans-serif;
+        }
+
+        .login-container {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+            text-align: center;
+            width: 350px;
+        }
+
+        .login-container h2 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .input-group {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+
+        .input-group input, select {
+            width: 80%;
+            padding: 12px;
+            padding-left: 40px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+       
+
+        .btn {
+            width: 80%;
+            padding: 12px;
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: linear-gradient(to right, #0072ff, #00c6ff);
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Skyline Login</h2>
+        <form method="post" action="Logincheck2_Adm.jsp">
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="uname" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="pass" placeholder="Password" required>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-users"></i>
+                <select name="user" required>
+                    <option value="" disabled selected>Select User Type</option>
+                    <option value="Employee">Employee</option>
+                    <option value="Agent">Agent</option>
+                    <option value="Admin">Admin</option>
+                </select>
+            </div>
+            <button class="btn" type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
